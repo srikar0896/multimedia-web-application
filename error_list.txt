@@ -1,0 +1,4 @@
+Paste this in my-media.php in other scripts
+<script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>

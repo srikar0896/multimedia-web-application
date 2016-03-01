@@ -1,0 +1,104 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="mymusic1.4.com" resolutions="1x" timestamp="1454075875940">
+  <folder name="css">
+    <file name="site_global.css" crc="3984359220"/>
+    <file name="home.css" crc="4031556391" ref="home"/>
+    <file name="profile.css" crc="3979013419" ref="profile"/>
+    <file name="friend-s-media.css" crc="210386381" ref="friend-s-media"/>
+    <file name="my-media.css" crc="3960586673" ref="my-media"/>
+    <file name="index.css" crc="4227923576" ref="index"/>
+    <file name="settings.css" crc="3810748273" ref="settings"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="home:my-media:friend-s-media:settings:profile:index"/>
+    <file name="museutils.js" crc="275725342" ref="home:my-media:friend-s-media:settings:profile:index"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="home:my-media:friend-s-media:settings:index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="home:my-media:friend-s-media:settings:profile:index"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="home:my-media:friend-s-media:settings:profile"/>
+    <file name="html5shiv.js" crc="4241844378" ref="home:my-media:friend-s-media:settings:profile:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="settings:profile"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="snappa-1453591085.jpg" crc="4292621383" ref="home"/>
+    <file name="blank.gif" crc="4208392903" ref="home:my-media:friend-s-media:settings:profile"/>
+    <file name="u455.png" crc="99958922" ref="home"/>
+    <file name="u455-a.png" crc="192630830" ref="home"/>
+    <file name="u118-4-a.png" crc="51219924" ref="home"/>
+    <file name="u109.png" crc="4168612383" ref="home"/>
+    <file name="u109-a.png" crc="32472715" ref="home"/>
+    <file name="u125.png" crc="71111178" ref="home"/>
+    <file name="u125-a.png" crc="341191617" ref="home"/>
+    <file name="u133.png" crc="319537145" ref="home"/>
+    <file name="u133-a.png" crc="4235488146" ref="home"/>
+    <file name="u140.png" crc="3758784238" ref="home"/>
+    <file name="u140-a.png" crc="508753213" ref="home"/>
+    <file name="snappa-1453593848.jpg" crc="3953912299" ref="my-media"/>
+    <file name="u451.png" crc="4080673976" ref="my-media"/>
+    <file name="u451-a.png" crc="17620223" ref="my-media"/>
+    <file name="u315.png" crc="194814654" ref="my-media"/>
+    <file name="u315-a.png" crc="4054300447" ref="my-media"/>
+    <file name="u321-4-a.png" crc="432309151" ref="my-media"/>
+    <file name="u331.png" crc="4032459331" ref="my-media"/>
+    <file name="u331-a.png" crc="4225463298" ref="my-media"/>
+    <file name="u336.png" crc="151213278" ref="my-media"/>
+    <file name="u336-a.png" crc="4029042118" ref="my-media"/>
+    <file name="u341.png" crc="281638690" ref="my-media"/>
+    <file name="u341-a.png" crc="372194825" ref="my-media"/>
+    <file name="u153-4.png" crc="356930284" ref="my-media"/>
+    <file name="snappa-1453596568.jpg" crc="3908927557" ref="friend-s-media"/>
+    <file name="u443.png" crc="4080673976" ref="friend-s-media"/>
+    <file name="u443-a.png" crc="516142638" ref="friend-s-media"/>
+    <file name="u351.png" crc="194814654" ref="friend-s-media"/>
+    <file name="u351-a.png" crc="261493302" ref="friend-s-media"/>
+    <file name="u356.png" crc="252809393" ref="friend-s-media"/>
+    <file name="u356-a.png" crc="4015279723" ref="friend-s-media"/>
+    <file name="u363-4-a.png" crc="4099060522" ref="friend-s-media"/>
+    <file name="u374.png" crc="151213278" ref="friend-s-media"/>
+    <file name="u374-a.png" crc="1734227" ref="friend-s-media"/>
+    <file name="u381.png" crc="281638690" ref="friend-s-media"/>
+    <file name="u381-a.png" crc="433774770" ref="friend-s-media"/>
+    <file name="u182-4.png" crc="70481019" ref="friend-s-media"/>
+    <file name="original (1).jpg" crc="497879950" ref="settings"/>
+    <file name="u616.png" crc="4080673976" ref="settings"/>
+    <file name="u616-a.png" crc="4080673976" ref="settings"/>
+    <file name="u620.png" crc="194814654" ref="settings"/>
+    <file name="u620-a.png" crc="194814654" ref="settings"/>
+    <file name="u629.png" crc="252809393" ref="settings"/>
+    <file name="u629-a.png" crc="252809393" ref="settings"/>
+    <file name="u634.png" crc="4032459331" ref="settings"/>
+    <file name="u634-a.png" crc="4032459331" ref="settings"/>
+    <file name="u644-4-a.png" crc="151213278" ref="settings"/>
+    <file name="u651.png" crc="281638690" ref="settings"/>
+    <file name="u651-a.png" crc="281638690" ref="settings"/>
+    <file name="musician-664432.jpg" crc="330560223" ref="profile"/>
+    <file name="u191-4.png" crc="3768371913" ref="profile"/>
+    <file name="u665.png" crc="4080673976" ref="profile"/>
+    <file name="u665-a.png" crc="4080673976" ref="profile"/>
+    <file name="u671.png" crc="194814654" ref="profile"/>
+    <file name="u671-a.png" crc="194814654" ref="profile"/>
+    <file name="u675.png" crc="252809393" ref="profile"/>
+    <file name="u675-a.png" crc="252809393" ref="profile"/>
+    <file name="u683.png" crc="4032459331" ref="profile"/>
+    <file name="u683-a.png" crc="4032459331" ref="profile"/>
+    <file name="u691.png" crc="151213278" ref="profile"/>
+    <file name="u691-a.png" crc="151213278" ref="profile"/>
+    <file name="u696-4-a.png" crc="281638690" ref="profile"/>
+    <file name="concert-smoke-crowd-people-concert-music-youth-club-photos-crowd-cheering-the-mood-the-smoke-tools-136417-2560x14401-990x420.jpg" crc="4112640622" ref="index"/>
+    <file name="u592-5.png" crc="157152303" ref="index"/>
+    <file name="dj in the mix_ultra hd-ieu518-fr.png" crc="3817038899" ref="index"/>
+    <file name="dj in the mix_ultra hd.jpg" crc="4085630618" ref="index"/>
+    <file name="musician-768489.jpg" crc="3782977144" ref="index"/>
+    <file name="cannonball-saxophone-wallpaper-photo-n4g45-ieu551-fr.png" crc="4046389834" ref="index"/>
+    <file name="cannonball-saxophone-wallpaper-photo-n4g45.jpg" crc="4148253596" ref="index"/>
+    <file name="x240-pc6-ieu561-fr.png" crc="4292907846" ref="index"/>
+    <file name="x240-pc6.jpg" crc="4028311348" ref="index"/>
+    <file name="wpid-pop_music-ieu569-fr.png" crc="504931860" ref="index"/>
+    <file name="wpid-pop_music.jpg" crc="390171680" ref="index"/>
+  </folder>
+  <file name="home.php" crc="3833595344" seo="true" mt="1454075871842" redirect="true"/>
+  <file name="my-media.php" crc="3825889795" seo="true" mt="1454075872920" redirect="true"/>
+  <file name="friend-s-media.php" crc="4252718431" seo="true" mt="1454075874125" redirect="true"/>
+  <file name="settings.html" crc="4025452578" seo="true" mt="1454075220603" redirect="true"/>
+  <file name="profile.html" crc="4033385798" seo="true" mt="1454075870916" redirect="true"/>
+  <file name="index.php" crc="3827794247" seo="true" mt="1454075821191" redirect="true"/>
+</manifest>
