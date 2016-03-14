@@ -1,0 +1,18 @@
+Detail description of this web-Application
+This is multimedia web application in which user can upload his media(music,videos,images) and have private media and user has an option 
+to directly embed the media from facebook,youtube,soundcloud and has a profile which specifies latest updates and recent activities of 
+user's friends.
+SECURITY:
+activation of the account(creating all userdata) is only possible after the confirmation of link sent in the mail of the user.
+all the passwords are encrypted(oneway).
+all the ins and outs for the web-application are restricted with out a valid user-id
+User have an option to have access to media with password reconfirmation.
+Improved post  methods to transfer data.
+
+Yet to come features:
+-User can also customize his own profile page with his own background picture,patterns,etc(like in gmail).
+-user and his particular friend can have a common media section where they can upload media and only they can have access.
+-adding a notifications pop-up
+-If the password is incorrect for more than three times and failed to activate through confirmation link.all the user data will be deleted 
+and saved in secured way with the specific id and the id is sent through mail and he can retrieve all the data by entering the id and his 
+own password. 
