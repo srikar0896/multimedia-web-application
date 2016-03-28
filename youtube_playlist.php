@@ -2,10 +2,7 @@
 <html class="html" lang="en-US">
  <head>
 
-  <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.scrolleffects.js", "jquery.watch.js", "jquery.musemenu.js", "my-media.css"], "outOfDate":[]};
-</script>
-  
+
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.0.2.310"/>
   <title>My media</title>
