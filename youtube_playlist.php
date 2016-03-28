@@ -10,6 +10,7 @@
   <meta name="generator" content="2015.0.2.310"/>
   <title>My media</title>
   <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/home-loginform.css"/>
   <link rel="stylesheet" type="text/css" href="css/site_global.css?3984359220"/>
   <link rel="stylesheet" type="text/css" href="css/my-media.css?3960586673" id="pagesheet"/>
   
@@ -71,13 +72,18 @@
 <a href="my-media.php">your music</a><br>
 <a href="youtube_playlist.php">youtube playlist</a><br>
 <a href="soundcloud_playlist.php">soundcloud playlist</a><br>
-
 </center>
 </div>
 </center>
 </body>
 
 </html>
+<form action="<?php $current_page?>" method="POST">
+<input type="text" name="data" placeholder="Track Name">
+<br>
+<input type="text" name="link" placeholder="Paste your Youtube Url">
+<input type="submit" name="submit" value="Upload">
+</form>
 
 
 
@@ -94,6 +100,15 @@ $mysql_password='';
 if(isset($_SESSION['user_name']) && !empty($_SESSION['user_name'])){
 $mysql_db=$_SESSION['user_name'];
 if(@(mysql_connect($mysql_host,$mysql_user,$mysql_password))&&(@(mysql_select_db($mysql_db)))){
+
+/* -- uploading vedios from youtube     */
+if(isset($_POST['data']) && isset($_POST['link'])){
+$description=$_POST['data'];
+$ytv_link=$_POST['link'];
+$uploading_query="INSERT INTO ".$show.".`youtube_playlist` (`yv_id`, `yv_name`, `yv_link`, `view`) VALUES (NULL, '".$description."', '".$ytv_link."', '1');";
+mysql_query($uploading_query);}
+
+/* --End of uploading vedios from youtube */
 
 $query="SELECT `yv_name`,`yv_link` FROM `youtube_playlist` ORDER By `yv_id` DESC";
 $query_run=mysql_query($query);
@@ -121,8 +136,8 @@ while($result_array=mysql_fetch_array($query_run,MYSQL_ASSOC)){
 echo '</center>';
 echo '<br>';
    }
- echo '<br><br>';
- echo  '<center><b><a href="logout.php">LOGOUT</a></b></center>'; 
+     echo '<br><br>';
+     echo  '<center><b><a href="logout.php">LOGOUT</a></b></center>'; 
 
 }
 	else {
